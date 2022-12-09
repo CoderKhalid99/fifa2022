@@ -1,0 +1,550 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+  }
+  
+.container{
+    width: 75%;
+    margin:0 auto;
+   
+}
+/* --------header-section------ */
+
+.headerSection{
+    
+    width: 100%;
+    background: #34495e;
+    color: #fff;
+    position: fixed;
+    z-index: 9999999999;
+    top:0px;
+    left:0;
+}
+.headerflex{
+    display:flex;
+    justify-content: space-between;
+}
+.headerlogo{
+    margin-top:-9px;
+}
+.headerlogo img {
+    width: 69px;
+    margin-top: 5px;
+}
+.headermanu{}
+.headermanu nav{}
+
+.headermanu nav ul{
+    
+}
+.headermanu nav ul li {
+    display: inline;
+    margin-left:15px;
+}
+
+.headermanu nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    line-height: 65px;
+    padding:0 10px;
+    text-transform: uppercase;
+    transition: .5s;
+
+}
+.headermanu nav ul li a:hover{
+    color: #d3d3d3;
+}
+.headerbutton {
+    line-height: 63px;
+}
+.headerbutton i {
+    font-size: 28px;
+    margin-left: 16px;
+}
+.headerbutton button{
+    margin-left: 19px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background: #FFE810;
+    color:#2c3e50;
+    border: none;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: .3s;
+
+}
+.headerbutton input{
+    padding:4px;
+}
+.headerbutton button:hover{
+    margin-left: 19px;
+    padding: 10px 20px;
+     border-radius: 20px;
+    background: #2c3e50;
+    color: #ffffff;
+    border: none;
+}
+.header-right{
+    text-align: right;
+}
+
+/*---------about us ------------ */
+
+.about{
+    
+    text-align:center;
+}
+.about h1{
+    font-size: 40px;
+    color:#2c3e50;
+    font-weight: 500;
+    padding:30px 0;
+}
+.about p{
+    font-size:18px;
+    color:#333;
+    padding:0 200px;
+    line-height:1.7em;
+}
+
+
+/* ----------banner---------- */
+
+.bannermain img {
+    width: 100%;
+    height: 800px !important;
+}
+
+.bx-wrapper {
+    border: none;
+
+
+}
+
+
+.banner{
+    margin-bottom: 20px;
+    position: relative;
+    margin-top: 64px;
+}
+
+.banner::after{
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top:0; bottom: 0;
+
+    background: rgba(0,0,0,.5);
+}
+
+/* -----------bestPlayer--------- */
+
+.BestPlayerTitle{
+    margin-top: 60px;
+}
+.BestPlayerTitle h1{
+    text-align:center;
+    font-size:40px;
+    color:#2c3e50;
+    font-weight: 600;
+    padding-bottom:50px;
+    letter-spacing: 22px;
+    text-transform: uppercase;
+}
+
+
+.bestPlayer{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+}
+.cardone {
+    width: 270px;
+    border: 1px solid #f0f0f0;
+    border-top-left-radius: 0px;
+    padding-bottom: 25px;
+    background: #fff;
+    text-align: center;
+    transition: 0.3s; 
+   
+}
+
+.cardone:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.cardone:hover button{
+    background:#000;
+    color:#fff;
+}
+.cardone img {
+    width: 100%;
+    height: 250px;
+}
+.cardone h1 {
+    text-align: center;
+    padding-top:10px;
+}
+.cardone p{
+    text-align: center;
+    font-size: 18px;
+    padding:10px;
+
+}
+.cardone button {
+    width: 40%;
+    border-radius: 5px;
+   margin:auto;
+    padding: 10px;
+    margin-top: 16px;
+    background: #D01818;
+    color: #fff;
+    border: none;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+.cardone button:hover{
+    background: #192939;
+    color: #fff;
+     transition: .5s;
+}
+
+
+/* -----------couch-------------- */
+img{
+    max-width:100%;
+}
+.couch{
+    background-color:rgb(244, 244, 244);
+    padding-bottom:70px;
+}
+.couchtitle{
+    text-align: center;
+    padding:50px 0;
+}
+.couchtitle h2{
+    font-size:40px;
+    color:#2c3e50;
+    font-weight: 500;
+}
+.couchtitle p{
+    font-size: 25px;
+    color: #676161;
+}
+
+h1,h2{
+    font-weight:600;
+}
+/* ---------------allplayers---------- */ 
+.player{
+    padding:60px;
+}
+.playerstitle h1{
+    text-align: center;
+    font-size:40px;
+    color:#2c3e50;
+    padding-bottom: 50px;
+    font-weight: 500;
+
+    
+}
+
+.box-player{
+    
+  display: flex;
+  position:relative;
+}
+
+ .player-content{
+    width:250px;
+    height:250px;
+   }
+   .player-content h4{
+    background-color: #5d8aa8;
+    color:#ffffff;
+    font-size:13px;
+    position:absolute;
+    margin-top:-38px;
+    margin-left:10px;
+    text-transform: uppercase;
+    padding:4px 10px;
+    border-radius: 2px;
+    
+
+   }
+.box-player img{
+    height: 250px;
+    width:100%;
+    border-radius:5%;
+    border: 2px solid #dddddd;
+    
+}
+
+
+
+/* best-players */
+
+
+.one-of-best{
+    padding:60px;
+    background-color: #F4F4F4;
+}
+.fevoritetitle{
+   text-align: center;
+}
+.fevoritetitle h1{
+    font-size: 40px;
+    color:#2c3e50;
+    font-weight: 500;
+   
+
+}
+.fevoritetitle p{
+    font-size: 18px;
+     padding:0px 490px;
+    padding-bottom: 30px;
+    padding-top:10px;
+    color:#333;
+    line-height: 1.7em;
+  
+}
+.best{
+    display:flex;
+    justify-content: space-between;
+    padding-top:40px;
+
+}
+.leftbestimg{
+    width:48%;
+}
+.leftbestimg img{
+    height:430px;
+}
+.rightbestcontent{
+    width:48%;
+}
+.naynar h2{
+    padding: 10px 0px;
+    font-weight: 600;
+}
+.naynar, .vini p{
+    line-height:1.7em;
+}
+
+/* ------------------vs-------------- */
+.vs h1{
+    text-align: center;
+    font-size:40px;
+    color:#2c3e50;
+    padding:30px 0px;
+
+}
+
+
+
+.youtube iframe{
+    width: 100%;
+    height: 500px;
+}
+
+
+/* contactform */
+
+.contact{
+    background-color: #F4F4F4;
+    padding:70px 0;
+}
+.contactarea-section{
+    display:flex;
+    justify-content: space-between;
+}
+.leftmap{
+    width:48%;
+    margin-top: 23px;
+}
+.rightcontact{
+    width:48%;
+}
+
+.contactarea form{
+    margin-right: 24px;
+}
+.contactarea h1{
+    font-size:30px;
+    color:#2c3e50;
+}
+.contactarea input,textarea{
+    width:100%;
+    padding:10px;
+    margin:20px 0;
+    border-radius: 30px;
+    border:1px solid #ddd;
+}
+.contactarea button{
+    padding:6px 30px;
+    background-color: #F6E113;
+    border-radius: 30px;
+    font-size:18px;
+    border:none;
+    color:#333;
+    transition:.3s;
+
+}
+.contactarea button:hover{
+    background-color: #333;
+    color:#ffffff;
+
+}
+/* footer-section */
+.footer{
+    background-color: #ddd;
+}
+.footer-pera{
+    text-align:center;
+    color:#333;
+    font-size:18px;
+    padding-top:40px;
+    padding-bottom: 100px;
+}
+
+
+
+@media only screen and (min-width:1000px)and (max-width:425px){
+    .container{
+        width:90%:
+    }
+}
+
+@media only screen and (max-width:425px){
+
+    .headerSection{
+      display:flex;
+    } 
+    .headermanu{
+        display:none;
+    }
+ 
+    .about{
+       display:inline;
+    }
+    .bestPlayer{
+       display:inline;
+    }
+    .best{
+       display:inline;
+    }
+    .contactarea-section{
+        display:inline;
+    }
+
+/* --------------header--------- */
+    .headerlogo {
+        width: 100px;
+        float: left;
+    }
+    .headerlogo img {
+        width: 59px;
+        margin-top: 10px;
+    }
+    .headerbutton button {
+        margin-left: 15px;
+        padding: 10px 12px;
+        border-radius: 20px;
+        background: #FFE810;
+        color: #2c3e50;
+        border: none;
+        font-weight: 600;
+        text-transform: uppercase;
+        transition: .4s;
+    }
+/* -------------bannner-------------- */
+
+    .bannermain img {
+        width: 100%;
+        height: 350px !important;
+    }
+    .bx-wrapper {
+        height: 350px;
+    }
+
+/* ---------about--------- */
+    
+.about-content p {
+    padding: 0;
+}
+.about-content{
+ 
+}
+.BestPlayerTitle h1{
+   letter-spacing: 0px;
+   font-size: 22px;
+   padding: 0;
+}
+.fevoritetitle h1{
+    font-size: 30px;
+}
+
+.fevoritetitle p {
+    padding: 0px;
+}
+.cardone{
+    margin:20px auto;
+}
+.box-player.owl-carousel {
+  
+}
+.leftbestimg {
+    width: 100%;
+    display:block;
+}
+.rightbestcontent {
+    width: 100%;
+    margin: 20px;
+    padding-bottom: 30px;
+}
+.container{
+    width:100%;
+}
+.one-of-best {
+    padding: 0px;}
+
+    .leftmap {
+        width: 100%;
+    }
+    .rightcontact {
+        width: 100%;
+        margin:20px;
+    }
+    .contactarea h1 {
+        font-size: 30px;
+        color: #2c3e50;
+        text-align: center;
+    }
+    .contactarea form {
+        margin-right: 41px;
+        text-align: center;
+
+    }
+    .contactarea {
+        margin-right: 22px;
+    }
+    .naynar, .vini p {
+        line-height: 1.7em;
+        padding-right: 5px;
+        margin-right: 20px;
+    }
+   
+
+    .player {
+        padding: 30px 10px;
+    }
+ 
+    
+}
